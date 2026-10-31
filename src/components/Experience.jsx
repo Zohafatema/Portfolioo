@@ -5,9 +5,9 @@ const timeline = [
   {
     icon: GraduationCap,
     type: "EDUCATION",
-    title: "Your Degree / Course",
-    organization: "Your College or University",
-    period: "Add your study period",
+    title: "Bachelor's of Computer Science",
+    organization: "Dr. Babasaheb Ambedkar Marathwada University (BAMU) Aurangabad",
+    period: "2024 - 2027",
     details: "Add your course, relevant subjects and achievements.",
   },
   {
@@ -15,7 +15,7 @@ const timeline = [
     type: "INTERNSHIP",
     title: "Frontend Development Intern",
     organization: "SpireX Foundation",
-    period: "Add your internship period",
+    period: "01 sep - 30 sep 2026",
     details:
       "Worked on frontend assignments involving HTML, CSS and JavaScript, responsive layouts and practical web development.",
   },

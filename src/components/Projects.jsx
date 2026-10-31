@@ -4,6 +4,28 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     number: "01",
+    category: "WEB APPLICATION",
+    title: "Rock Paper Scissors Game",
+    description:
+      "A colour accessibility tool for checking contrast ratios and understanding WCAG text accessibility requirements.",
+    tags: ["HTML","CSS", "JavaScript"],
+    accent: "project-blue",
+    github: "https://github.com/Zohafatema/Rock-Paper-Scissor-Game",
+    demo: "",
+  },
+  {
+    number: "02",
+    category: "WEB-APPLICATION",
+    title: "Task Managment App",
+    description:
+      "A productivity-focused task management application with task creation, editing, deletion, status tracking and an organized dashboard for managing daily activities.",
+    tags: ["React", "CSS", "LocalStorage"],
+    accent: "project-pink",
+    github: "https://github.com/Zohafatema/Task-Management",
+    demo: "",
+  },
+  {
+    number: "01",
     category: "WEB ACCESSIBILITY",
     title: "Accessibility Colour Lab",
     description:
@@ -13,28 +35,28 @@ const projects = [
     github: "https://github.com/",
     demo: "",
   },
-  {
-    number: "02",
-    category: "E-COMMERCE",
-    title: "SugarBloom",
-    description:
-      "A bakery storefront concept with product browsing, cake customization and an elegant responsive shopping experience.",
-    tags: ["React", "CSS", "Supabase"],
-    accent: "project-pink",
-    github: "https://github.com/",
-    demo: "",
-  },
-  {
-    number: "03",
-    category: "UTILITY APPLICATION",
-    title: "Currency Converter",
-    description:
-      "A currency conversion interface designed to retrieve exchange rates from an API and convert between currencies.",
-    tags: ["HTML", "CSS", "JavaScript", "API"],
-    accent: "project-blue",
-    github: "https://github.com/",
-    demo: "",
-  },
+  // {
+  //   number: "02",
+  //   category: "E-COMMERCE",
+  //   title: "SugarBloom",
+  //   description:
+  //     "A bakery storefront concept with product browsing, cake customization and an elegant responsive shopping experience.",
+  //   tags: ["React", "CSS", "Supabase"],
+  //   accent: "project-pink",
+  //   github: "https://github.com/",
+  //   demo: "",
+  // },
+  // {
+  //   number: "03",
+  //   category: "UTILITY APPLICATION",
+  //   title: "Currency Converter",
+  //   description:
+  //     "A currency conversion interface designed to retrieve exchange rates from an API and convert between currencies.",
+  //   tags: ["HTML", "CSS", "JavaScript", "API"],
+  //   accent: "project-blue",
+  //   github: "https://github.com/",
+  //   demo: "",
+  // },
 ];
 
 export default function Projects() {
